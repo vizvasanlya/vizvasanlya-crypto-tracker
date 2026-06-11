@@ -1,14 +1,15 @@
-# Crypto Tracker
+# Crypto Portfolio Tracker
 
-A market tracking dashboard for portfolio allocation, price alerts, asset performance, and risk signals.
+Track portfolio allocation, price alerts, asset performance, stablecoin reserves, and risk signals.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ A market tracking dashboard for portfolio allocation, price alerts, asset perfor
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.

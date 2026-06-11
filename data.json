@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-crypto-tracker",
+  "title": "Crypto Portfolio Tracker",
+  "subtitle": "Assets, alerts, allocation, and risk",
+  "eyebrow": "Markets MVP",
+  "initial": "CT",
+  "accent": "#f59e0b",
+  "description": "Track portfolio allocation, price alerts, asset performance, stablecoin reserves, and risk signals.",
+  "metrics": [
+    {
+      "label": "Total assets",
+      "delta": "Portfolio",
+      "type": "count"
+    },
+    {
+      "label": "Watchlist assets",
+      "delta": "Alerts",
+      "type": "count"
+    },
+    {
+      "label": "Balanced rate",
+      "delta": "Risk",
+      "type": "percent"
+    },
+    {
+      "label": "High risk assets",
+      "delta": "Monitor",
+      "type": "count"
+    },
+    {
+      "label": "Portfolio value",
+      "delta": "Markets",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Watch",
+    "Accumulate",
+    "Volatile",
+    "Balanced",
+    "Alert"
+  ],
+  "resources": [
+    {
+      "title": "Bitcoin position",
+      "owner": "Portfolio",
+      "status": "Watch",
+      "priority": "High",
+      "dueDate": "2026-06-16",
+      "value": 9200,
+      "detail": "Momentum holding above key moving average.",
+      "notes": "Set alert below support level."
+    },
+    {
+      "title": "Ethereum position",
+      "owner": "Portfolio",
+      "status": "Accumulate",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 5400,
+      "detail": "Network activity supports current trend.",
+      "notes": "Review staking yield and fees."
+    },
+    {
+      "title": "Solana trade plan",
+      "owner": "Trading",
+      "status": "Volatile",
+      "priority": "Critical",
+      "dueDate": "2026-06-15",
+      "value": 2600,
+      "detail": "Alert set for support and resistance levels.",
+      "notes": "Reduce size if volatility expands."
+    },
+    {
+      "title": "Stablecoin reserve",
+      "owner": "Risk",
+      "status": "Balanced",
+      "priority": "Medium",
+      "dueDate": "2026-06-18",
+      "value": 3100,
+      "detail": "Cash reserve maintained for opportunities.",
+      "notes": "Keep at least 15% reserve."
+    },
+    {
+      "title": "DeFi yield review",
+      "owner": "Research",
+      "status": "Alert",
+      "priority": "High",
+      "dueDate": "2026-06-22",
+      "value": 4200,
+      "detail": "Review smart contract and APY changes.",
+      "notes": "Check audit status and withdrawal liquidity."
+    },
+    {
+      "title": "Tax lot export",
+      "owner": "Finance",
+      "status": "Watch",
+      "priority": "Low",
+      "dueDate": "2026-07-01",
+      "value": 900,
+      "detail": "Prepare transaction export for tax reporting.",
+      "notes": "Reconcile missing transfers."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Added Solana volatility alert.",
+      "at": "2026-06-10T17:30:00Z"
+    },
+    {
+      "text": "Reviewed stablecoin reserve.",
+      "at": "2026-06-08T12:45:00Z"
+    }
+  ]
+}
